@@ -47,7 +47,7 @@ This project implements distributed machine learning algorithms to classify US t
 
 ## Technical Highlights
 
-- **Data Optimization**: 67% storage reduction via Parquet with Snappy compression (1,600 MB → 533 MB)
+- **Data Optimization**: 67% storage reduction via Parquet with Snappy compression 
 - **Efficient Caching**: Strategic MEMORY_AND_DISK persistence at 6 pipeline checkpoints
 - **Optimal Configuration**: 4-partition setup identified as best cost-efficiency (55.03%); 8 partitions achieved fastest wall-clock time (3.22 s)
 - **Statistical Rigor**: Bootstrap CIs confirm model stability (DT width: 0.0025, RF width: 0.0024)
