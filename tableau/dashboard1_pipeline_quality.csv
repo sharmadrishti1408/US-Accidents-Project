@@ -1,0 +1,6 @@
+Stage,Row_Count,Format,Null_Rate_Pct,Processing_Time_s,Partition_Count,Storage_MB
+CSV Ingestion,4209699,CSV,0.0,45.0,1,1600.0
+Validation,4209699,DataFrame,2.3,12.0,1,1600.0
+Repartition,4209699,DataFrame,2.3,8.0,10,1600.0
+Broadcast Enrich,4209699,DataFrame,2.3,3.0,10,1600.0
+Parquet Write,4209699,Parquet/Snappy,2.3,25.0,50,533.0

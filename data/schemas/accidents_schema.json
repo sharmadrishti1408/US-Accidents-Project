@@ -1,0 +1,293 @@
+{
+  "type": "struct",
+  "fields": [
+    {
+      "name": "State",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "ID",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Source",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Severity",
+      "type": "integer",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Start_Time",
+      "type": "timestamp",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "End_Time",
+      "type": "timestamp",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Start_Lat",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Start_Lng",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "End_Lat",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "End_Lng",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Distance(mi)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Description",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Street",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "City",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "County",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Zipcode",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Country",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Timezone",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Airport_Code",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Weather_Timestamp",
+      "type": "timestamp",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Temperature(F)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Wind_Chill(F)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Humidity(%)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Pressure(in)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Visibility(mi)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Wind_Direction",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Wind_Speed(mph)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Precipitation(in)",
+      "type": "double",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Weather_Condition",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Amenity",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Bump",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Crossing",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Give_Way",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Junction",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "No_Exit",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Railway",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Roundabout",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Station",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Stop",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Traffic_Calming",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Traffic_Signal",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Turning_Loop",
+      "type": "boolean",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Sunrise_Sunset",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Civil_Twilight",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Nautical_Twilight",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Astronomical_Twilight",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Region",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    },
+    {
+      "name": "Climate_Zone",
+      "type": "string",
+      "nullable": true,
+      "metadata": {}
+    }
+  ]
+}

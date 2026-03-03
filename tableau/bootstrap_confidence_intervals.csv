@@ -1,0 +1,4 @@
+Model,Mean_Accuracy,CI_Lower,CI_Upper,CI_Width
+LR_MLlib,0.0897,0.089,0.0904,0.0014
+RF_MLlib,0.6133,0.6122,0.6146,0.0024
+DT_MLlib,0.622,0.6208,0.6233,0.0025
